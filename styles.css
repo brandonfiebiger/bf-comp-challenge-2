@@ -128,7 +128,8 @@ header {
 
 .shares-header {
     font-size: 4vw;
-    margin: auto 20px
+    margin: auto 20px;
+    color: #606060;
 }
 
 .article-section {
@@ -147,6 +148,7 @@ article {
   box-shadow: 4px 3px #CCCCCC;
   background-color: #F9F9F9;
   padding-bottom: 18%;
+  color: #606060;
 }
 
 a {
