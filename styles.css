@@ -142,7 +142,7 @@ header {
 
 article {
   width: 23%;
-  height: 24%;
+  height: 21%;
   margin: 0px 8px;
   box-shadow: 4px 3px #CCCCCC;
   background-color: #F9F9F9;
@@ -213,7 +213,6 @@ a {
   filter: brightness(100%);
 }
 
-
 .share-option-arrow {
   width: 3vw;
   border: 2px solid #E8E8E8;
@@ -240,7 +239,8 @@ a {
 
 .image-area-2 {
   background-image: url("http://www.galleryoftattoosnow.com/BiagiosTattooGalleryMEMBERS/images/gallery/Bunch_a_Roses_%20Comp-Website.jpg");
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
 }
 
 .card-3 {
@@ -249,7 +249,8 @@ a {
 
 .image-area-3 {
   background-image: url("https://78.media.tumblr.com/0973e8f4935564c1537fba5c0bcd189a/tumblr_or8j8wBmrL1qd3s1vo1_500.jpg");
-  background-size: cover;
+    background-size: 60%;
+    background-position: center;
 }
 
 .card-4 {
@@ -258,8 +259,8 @@ a {
 
 .image-area-4 {
   background-image: url("https://i2.wp.com/thedolorosa.com/wp-content/uploads/2014/03/the-dolorosa-studio-city-tattoo-los-angeles-california-tattoos-Chris-Paez-black-and-grey-traditional-color-thedolorosa-american-japanese-fineline-fine-line-chris_paez-dog-skull-geometric-flower-lillies-lily-flower-skeleton-mandolin-swallow-bird.jpg?ssl\x3d1");
-  background-size: cover;
-  background-position: top 20%;
+  background-size: 100%;
+  background-position: center;
 }
 
 .card-5 {
@@ -269,7 +270,7 @@ a {
 .image-area-5 {
   background-image: url("https://78.media.tumblr.com/faea87f83117e068c8e1e734ea2a246b/tumblr_or6skvuPIi1qd3s1vo1_500.jpg");
   background-size: 100%;
-  background-position: top 10% left 30%;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -279,7 +280,8 @@ a {
 
 .image-area-6 {
   background-image: url("https://static1.squarespace.com/static/5276501ee4b0782c048d1887/58f10309b8a79b050d5d7996/5a7193ee71c10b8bbac5be24/1520870141246/finelinechair.jpg?format=2500w");
-  background-size: cover;
+  background-size: 100%;
+  background-position: center;
 }
 
 .card-7 {
@@ -288,7 +290,8 @@ a {
 
 .image-area-7 {
   background-image: url("https://3.bp.blogspot.com/-pCGLlFjoIo8/WBQ5pybferI/AAAAAAAAGyI/eS_K6qd7O4kRys6FVUjd-Cplshiltt93QCLcB/s1600/Realistic%2Btattoo%2Bon%2Barm%2B8.JPG");
-  background-position: center bottom 70%;
+  background-size: 100%;
+  background-position: center;
 }
 
 .card-8 {
@@ -489,9 +492,9 @@ a {
 
     .share-tag {
       font-size: 3.5vw;
-      margin-left: 6vh;
+      margin-left: 4vh;
       position: relative;
-      top: 5vh;
+      top: 2vh;
     }
 
     .share-button {
@@ -500,7 +503,9 @@ a {
 
     .playlist-tag {
       font-size: 3.2vw;
-      margin-left: 6vw;
+      margin-left: 4vw;
+      position: relative;
+      bottom: 7%;
     }
 
     .playlist-button {
@@ -512,8 +517,8 @@ a {
     .personal-tag {
       font-size: 3vw;
       position: relative;
-      bottom: 5vh;
-      margin-left: 6vw;
+      bottom: 7vh;
+      margin-left: 4vw;
     }
 
     .avatar-icon {
@@ -522,11 +527,11 @@ a {
 
     .think-tank-head {
       margin-right: 16%;
-      font-size: 6.2vw;
-      margin-top: -4%;
+      font-size: 8.2vw;
+      margin-top: 55%;
       position: relative;
-      right: 55%;
-      top: -14%;
+      right: 5%;
+      top: -5%;
     }
 
     .admin-username {
@@ -539,12 +544,13 @@ a {
     }
 
     .dagger-icon {
-      width: 11vw;
+      width: 10vw;
       margin-bottom: 1%;
-      margin-right: 18%;
+      margin-right: 8%;
       position: relative;
       bottom: 52%;
-      right: 20%;
+      right: 0%;
+      left: 7%;
     }
 
     .admin-icon {
@@ -558,7 +564,6 @@ a {
     .share-option-arrow {
       width: 7vw;
     }
-
 }
 
   @media screen and (max-width: 580px) {
@@ -575,13 +580,13 @@ a {
     .personal-tag {
       font-size: 3vw;
       position: relative;
-      bottom: 9vh;
-      margin-left: 6vw;
+      bottom: 8vh;
+      margin-left: 3.9vw;
     }
 
     .share-tag {
       font-size: 3.5vw;
-      margin-left: 6vh;
+      margin-left: 3vh;
       position: relative;
       top: 1vh;
     }
@@ -612,38 +617,48 @@ a {
   @media screen and (max-width: 460px) {
 
     body {
-      grid-template: 40% 10% 50% / 25% 25% 25% 25%;
+      grid-template: 30% 10% 60% / 25% 25% 25% 25%;
     }
 
-    .article-section{
+    .article-section {
       width: 90%;
     }
 
     article {
-      height: 210%;
+      height: 180%;
     }
 
     .share-tag {
       font-size: 3.5vw;
-      margin-left: 4vh;
+      margin-left: 4.1vh;
       position: relative;
     }
 
     .playlist-tag {
       bottom: 4vh;
+      right: 0%;
     }
 
     .personal-tag {
-      margin-left: 5vw;
+      margin-left: 2vw;
       }
 
     .admin-username {
-      top: 57%;
+      top: 55%;
       right: 2vh;
     }
 
+    .think-tank-head {
+      margin-right: 16%;
+      font-size: 8.2vw;
+      margin-top: 55%;
+      position: relative;
+      right: 9%;
+      top: 0%;
+    }
+
     .personal-tag {
-      bottom: 8vh;
+      bottom: 9vh;
       margin-left: 4vw;
     }
 
@@ -685,7 +700,6 @@ a {
     .share-option-arrow {
       width: 12vw;
     }
-
   }
 
 @media screen and (max-width: 364px) {
