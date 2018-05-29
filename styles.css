@@ -632,7 +632,7 @@ a {
 
     .share-tag {
       font-size: 3.5vw;
-      margin-left: 4.1vh;
+      margin-left: 2.7vh;
       position: relative;
     }
 
@@ -643,6 +643,7 @@ a {
 
     .personal-tag {
       margin-left: 2vw;
+      bottom: 8.9vh;
       }
 
     .admin-username {
@@ -707,7 +708,20 @@ a {
 @media screen and (max-width: 364px) {
 
   .share-tag {
-    margin-left: 3.5vw;
+    margin-left: 3.6vw;
+    top: .5vh;
+  }
+
+  .personal-tag {
+    bottom: 10.6vh;
+  }
+
+  .playlist-tag {
+    bottom: 5.3vh;
+  }
+
+  article {
+    height: 190%;
   }
 }
 
