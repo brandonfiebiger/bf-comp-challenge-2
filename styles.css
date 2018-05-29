@@ -1,0 +1,713 @@
+body {
+  width: 100%;
+  height: 100vw;
+  display: grid;
+  grid-template: 14% 11% 75% / 25% 25% 25% 25%;
+  background-color: #E9E9E9;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  background-color: #2B2B2B;
+  grid-area: 1 / 1 / 2 / 5;
+}
+
+.header-left {
+  width: 50%;
+  height: 100%;
+  float: left;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.header-right {
+  width: 50%;
+  height: 100%;
+  float: right;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #E6E6E6;
+}
+
+.dagger-icon {
+    width: 5vw;
+    margin-bottom: 6%;
+    margin-right: 3%;
+    cursor: pointer;
+}
+
+.think-tank-head {
+  margin-right: 14%;
+  font-size: 2.8vw;
+  margin-top: -4%;
+  position: relative;
+  right: 0%;
+  top: 43%;
+  cursor: pointer;
+}
+
+.think-tank-head:hover {
+  color: #EFFDFF;
+}
+
+.admin-username {
+  margin-right: 10%;
+  margin-top: 8%;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.admin-icon {
+  width: 2vw;
+  margin-top: -3%;
+}
+
+.sort-down {
+  width: .7vw;
+  position: relative;
+  left: 3%
+}
+
+.share-button {
+  width: 1.8vw;
+  position: relative;
+  top: 1vh;
+  margin-right: 1vw;
+}
+
+.share-tag {
+  color: #E6E6E6;
+  margin-bottom: 6vh;
+  font-size: 1.5vw;
+  cursor: pointer;
+}
+
+.share-tag:hover {
+  color: #EFFDFF;
+}
+
+.playlist-button {
+  width: 2vw;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  position: relative;
+  top: 1vh;
+}
+
+.playlist-tag {
+  color: #E6E6E6;
+  margin-bottom: 6vh;
+  font-size: 1.35vw;
+  cursor: pointer;
+}
+
+.playlist-tag:hover {
+  color: #EFFDFF;
+}
+
+.avatar-icon {
+  width: 2vw;
+  margin-right: .4vw;
+  position: relative;
+  top: 0.8vh;
+}
+
+.personal-tag {
+  color: #E6E6E6;
+  margin-bottom: 6vh;
+  font-size: 1.4vw;
+  cursor: pointer;
+}
+
+.personal-tag:hover {
+  color: #EFFDFF;
+}
+
+.shares-header {
+    font-size: 4vw;
+    margin: auto 20px
+}
+
+.article-section {
+  grid-area: 3 / 1 / 4 / 5;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  width: 90%;
+  margin: 0 auto;
+}
+
+article {
+  width: 23%;
+  height: 24%;
+  margin: 0px 8px;
+  box-shadow: 4px 3px #CCCCCC;
+  background-color: #F9F9F9;
+  padding-bottom: 18%;
+}
+
+a {
+  color: #5F5F5F;
+  font-size: 1.1vw;
+  cursor: pointer;
+}
+
+.top-card {
+  padding-left: 1rem;
+}
+
+.tattooer-name-header {
+  font-size: 1.5vw;
+}
+
+.date-p-tag {
+  font-size: 1vw;
+}
+
+.bottom-half-text {
+  margin-left: 1.4vw;
+}
+
+.mid-card-header {
+  font-size: 1.5vw;
+}
+
+.card-header-2 {
+  font-size: 1.7vw;
+  position: relative;
+  bottom: 5%;
+}
+
+.attachments {
+  font-size: 1.2vw;
+}
+
+.attachment-number {
+  font-size: 2.8vw;
+  margin-left: 7%;
+  color: #2FB1FD;
+  position: relative;
+  bottom: 10%;
+}
+
+.a-tag-container {
+  height: 10vh;
+  width: 86%;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  background-color: #CFCFCF;
+}
+
+.image-area {
+  height: 50%;
+  width: 100%;
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.image-area:hover {
+  filter: brightness(100%);
+}
+
+
+.share-option-arrow {
+  width: 3vw;
+  border: 2px solid #E8E8E8;
+  border-radius: 50%;
+  margin-left: 1%;
+  margin-top: 2%;
+
+}
+
+.card-1 {
+  grid-area: 3 / 1 / 4 / 2;
+}
+
+.image-area-1 {
+  background-image: url("https://tattoodo-web.imgix.net/images/0/159899.jpg?auto=format,compress");
+  background-size: cover;
+  background-position: left 28% top 28%;
+  border: 1px solid grey;
+}
+
+.card-2 {
+  grid-area: 3 / 2 / 4 / 3;
+}
+
+.image-area-2 {
+  background-image: url("http://www.galleryoftattoosnow.com/BiagiosTattooGalleryMEMBERS/images/gallery/Bunch_a_Roses_%20Comp-Website.jpg");
+  background-size: cover;
+}
+
+.card-3 {
+  grid-area: 3 / 3 / 4 / 4;
+}
+
+.image-area-3 {
+  background-image: url("https://78.media.tumblr.com/0973e8f4935564c1537fba5c0bcd189a/tumblr_or8j8wBmrL1qd3s1vo1_500.jpg");
+  background-size: cover;
+}
+
+.card-4 {
+  grid-area: 3 / 4 / 4 / 5;
+}
+
+.image-area-4 {
+  background-image: url("https://i2.wp.com/thedolorosa.com/wp-content/uploads/2014/03/the-dolorosa-studio-city-tattoo-los-angeles-california-tattoos-Chris-Paez-black-and-grey-traditional-color-thedolorosa-american-japanese-fineline-fine-line-chris_paez-dog-skull-geometric-flower-lillies-lily-flower-skeleton-mandolin-swallow-bird.jpg?ssl\x3d1");
+  background-size: cover;
+  background-position: top 20%;
+}
+
+.card-5 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.image-area-5 {
+  background-image: url("https://78.media.tumblr.com/faea87f83117e068c8e1e734ea2a246b/tumblr_or6skvuPIi1qd3s1vo1_500.jpg");
+  background-size: 100%;
+  background-position: top 10% left 30%;
+  background-repeat: no-repeat;
+}
+
+.card-6 {
+  grid-area: 4 / 2 / 5 / 3;
+}
+
+.image-area-6 {
+  background-image: url("https://static1.squarespace.com/static/5276501ee4b0782c048d1887/58f10309b8a79b050d5d7996/5a7193ee71c10b8bbac5be24/1520870141246/finelinechair.jpg?format=2500w");
+  background-size: cover;
+}
+
+.card-7 {
+  grid-area: 4 / 3 / 5 / 4;
+}
+
+.image-area-7 {
+  background-image: url("https://3.bp.blogspot.com/-pCGLlFjoIo8/WBQ5pybferI/AAAAAAAAGyI/eS_K6qd7O4kRys6FVUjd-Cplshiltt93QCLcB/s1600/Realistic%2Btattoo%2Bon%2Barm%2B8.JPG");
+  background-position: center bottom 70%;
+}
+
+.card-8 {
+  grid-area: 4 / 4 / 5 / 5;
+}
+
+.image-area-8 {
+  background-image: url("https://www.tattoosforyou.org/wp-content/uploads/2017/08/Photo-Realism-Tattoo-Photos.jpg");
+}
+
+@media screen and (max-width: 1379px) {
+
+  .a-tag-container {
+    height: 7vh;
+  }
+}
+
+@media screen and (max-width: 990px) {
+
+body {
+  grid-template: 20% 10% 70% / 25% 25% 25% 25%;
+}
+
+article {
+  height: 30%;
+  width: 30%;
+  margin: 7px 12px;
+}
+
+a {
+  color: #5F5F5F;
+  font-size: 1.3vw;
+}
+
+.tattooer-name-header {
+  font-size: 2vw;
+}
+
+.date-p-tag {
+  font-size: 1.3vw;
+}
+
+.mid-card-header {
+  font-size: 1.5vw;
+}
+
+.card-header-2 {
+  font-size: 1.8vw;
+}
+
+.attachments {
+  font-size: 1.2vw;
+}
+
+.think-tank-head {
+  margin-right: 16%;
+  font-size: 3.2vw;
+  margin-top: -4%;
+  position: relative;
+  right: 0%;
+  top: 34%;
+}
+
+.share-tag {
+  font-size: 2.1vw;
+}
+
+.share-button {
+  width: 2.5vw;
+  top: .8vh;
+}
+
+.playlist-tag {
+  font-size: 2.2vw;
+}
+
+.playlist-button {
+  width: 3vw;
+  margin-left: .4vw;
+  margin-right: .9vw;
+}
+
+.avatar-icon {
+  width: 3vw;
+}
+
+.personal-tag {
+  font-size: 2vw;
+}
+
+.admin-icon {
+  width: 3vw;
+}
+
+.sort-down {
+  width: 1.2vw;
+}
+
+@media screen and (max-width: 840px) {
+
+  article {
+    width: 47%;
+    height: 54%;
+    margin: 7px 6px;
+  }
+
+  a {
+    font-size: 1.8vw;
+  }
+
+  .article-section {
+    width: 80%;
+    justify-content: space-around;
+
+  }
+
+  .mid-card-header {
+    font-size: 1.9vw;
+  }
+
+  .attachments {
+  font-size: 2vw;
+  }
+
+  .attachment-number {
+    font-size: 3.8vw;
+    bottom: 7%;
+  }
+
+  .share-tag {
+    font-size: 2.5vw;
+  }
+
+  .share-button {
+    width: 3vw;
+    top: .6vh;
+  }
+
+  .card-header-2 {
+    font-size: 2.2vw;
+    bottom: 3%;
+  }
+
+  .share-option-arrow {
+    width: 4vw;
+  }
+
+}
+
+  @media screen and (max-width: 700px) {
+
+    body {
+      grid-template: 30% 10% 60% / 25% 25% 25% 25%;
+    }
+
+    .header-left {
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-direction: column;
+    }
+
+    .article-section {
+      width: 70%;
+    }
+
+    article {
+      width: 91%;
+      height: 94%;
+    }
+
+   .tattooer-name-header {
+      font-size: 2.6vw;
+    }
+
+    .date-p-tag {
+      font-size: 1.3vw;
+    }
+
+    .mid-card-header {
+      font-size: 1.8vw;
+    }
+
+    .card-header-2 {
+      font-size: 2.8vw;
+    }
+
+    .attachments {
+      font-size: 2vw;
+    }
+
+    .attachment-number {
+      font-size: 6vw;
+      margin-left: 7%;
+      color: #2FB1FD;
+      position: relative;
+      bottom: 5%;
+    }
+
+    .share-tag {
+      font-size: 3.5vw;
+      margin-left: 6vh;
+      position: relative;
+      top: 5vh;
+    }
+
+    .share-button {
+      width: 3.7vw;
+    }
+
+    .playlist-tag {
+      font-size: 3.2vw;
+      margin-left: 6vw;
+    }
+
+    .playlist-button {
+      width: 4vw;
+      margin-left: .4vw;
+      margin-right: 1.2vw;
+    }
+
+    .personal-tag {
+      font-size: 3vw;
+      position: relative;
+      bottom: 5vh;
+      margin-left: 6vw;
+    }
+
+    .avatar-icon {
+      width: 4vw;
+    }
+
+    .think-tank-head {
+      margin-right: 16%;
+      font-size: 6.2vw;
+      margin-top: -4%;
+      position: relative;
+      right: 55%;
+      top: -14%;
+    }
+
+    .admin-username {
+      margin-right: 11%;
+      margin-top: 5%;
+      font-size: 2.5vw;
+      position: relative;
+      top: 58%;
+      right: 6vh;
+    }
+
+    .dagger-icon {
+      width: 11vw;
+      margin-bottom: 1%;
+      margin-right: 18%;
+      position: relative;
+      bottom: 52%;
+      right: 20%;
+    }
+
+    .admin-icon {
+      width: 3.6vw;
+    }
+
+    .sort-down {
+      width: 1.7vw;
+    }
+
+    .share-option-arrow {
+      width: 7vw;
+    }
+
+}
+
+  @media screen and (max-width: 580px) {
+
+    .article-section {
+      width: 70%;
+    }
+
+    article {
+      width: 100%;
+      height: 110%;
+    }
+
+    .personal-tag {
+      font-size: 3vw;
+      position: relative;
+      bottom: 9vh;
+      margin-left: 6vw;
+    }
+
+    .share-tag {
+      font-size: 3.5vw;
+      margin-left: 6vh;
+      position: relative;
+      top: 1vh;
+    }
+
+    .playlist-tag {
+      position: relative;
+      bottom: 4vh;
+    }
+
+    .date-p-tag {
+      font-size: 2.3vw;
+    }
+
+    .tattooer-name-header {
+      font-size: 3.2vw;
+    }
+
+    .a-tag-container {
+      width: 91%;
+    }
+
+    a {
+      font-size: 2.3vw;
+    }
+
+  }
+
+  @media screen and (max-width: 460px) {
+
+    body {
+      grid-template: 40% 10% 50% / 25% 25% 25% 25%;
+    }
+
+    .article-section{
+      width: 90%;
+    }
+
+    article {
+      height: 210%;
+    }
+
+    .share-tag {
+      font-size: 3.5vw;
+      margin-left: 4vh;
+      position: relative;
+    }
+
+    .playlist-tag {
+      bottom: 4vh;
+    }
+
+    .personal-tag {
+      margin-left: 5vw;
+      }
+
+    .admin-username {
+      top: 57%;
+      right: 2vh;
+    }
+
+    .personal-tag {
+      bottom: 8vh;
+      margin-left: 4vw;
+    }
+
+    .tattooer-name-header {
+      font-size: 5.2vw;
+    }
+
+    .date-p-tag {
+      font-size: 3.3vw;
+    }
+
+    a {
+      font-size: 3.3vw;
+    }
+
+    .a-tag-container {
+      height: 5vh;
+    }
+
+    .mid-card-header {
+      font-size: 3.8vw;
+    }
+
+    .card-header-2 {
+      font-size: 5.8vw;
+    }
+
+    .attachments {
+      font-size: 4vw;
+      position: relative;
+      bottom: 3%;
+    }
+
+    .attachment-number {
+      font-size: 8vw;
+      bottom: 6%;
+    }
+
+    .share-option-arrow {
+      width: 12vw;
+    }
+
+  }
+
+@media screen and (max-width: 364px) {
+
+  .share-tag {
+    margin-left: 3.5vw;
+  }
+}
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
